@@ -5,11 +5,13 @@ body {
 }
 
 main {
+	margin-top: 55px;
 	flex: 1 0 auto;
 }  
 
 /* NAV */
 nav{
+	height: 55px;
 	background-color: #022c43;
 	position: fixed !important;
 }
@@ -17,7 +19,7 @@ nav{
 	color: #E7C810 !important;
 }
 .nav-link, .dropdown-menu .dropdown-item{
-	color: white !important;
+	color: #022c43 !important;
 	font-family: 'PT Sans', sans-serif;
 }
 .nav-link:hover, .dropdown-menu .dropdown-item:hover{
@@ -93,7 +95,7 @@ footer .container-fluid p{
 
 /*MAIN*/
 .banner img{
-	 height: 50vh;
+	 height: 40vh;
 	 width: 100%;
 }
 
