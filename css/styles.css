@@ -11,6 +11,7 @@ main {
 /* NAV */
 nav{
 	background-color: #022c43;
+	position: fixed !important;
 }
 .navbar-nav .active a{
 	color: #E7C810 !important;
