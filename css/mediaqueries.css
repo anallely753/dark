@@ -11,13 +11,7 @@
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
 	main h1{
-		font-size: 1.8rem;
-	}
-	main p{
-		font-size: .9rem;
-	}
-	footer p{
-		font-size: small;
+		font-size: 2rem;
 	}
 }
 
