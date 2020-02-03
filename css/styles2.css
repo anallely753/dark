@@ -1,27 +1,33 @@
-body {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-}
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 
-main {
-	flex: 1 0 auto;
-}  
+  main {
+ 	flex: 1 0 auto;
+ 	height: 70vh;
+ }  
 
-/* NAV */
+/*NAV*/
 nav{
 	background-color: #022c43;
 }
+
 .navbar-nav .active a{
 	color: #E7C810 !important;
 }
 .nav-link, .dropdown-menu .dropdown-item{
 	color: white !important;
+	/*font-family: 'Dosis', sans-serif;*/
 	font-family: 'PT Sans', sans-serif;
+	/*font-size: smaller;*/
 }
+
 .nav-link:hover, .dropdown-menu .dropdown-item:hover{
 	color: #E7C810 !important;
 	background-color: #022c43;
+
 }
 ul .dropdown-menu{
 	background-color: #022c43;
@@ -32,18 +38,21 @@ ul .dropdown-menu{
 	height: 35px;
 	border-style: none;
 	font-family: 'PT Sans', sans-serif;
+	font-size: smaller;
 }
 
 #but-s{
 	width: 45px;
 	height: 35px;
 	border-radius: 0;
-	background-color: #022c43;
+	background-color: white;
 	border-style: none;
-	border: solid lightgray 1px;
+	/*background-color: #022c43;
+	border-style: none;*/
 }
 #but-s i{
-	color: white;
+	/*color: #E7C810; */
+	color: #022c43;
 }
 
 #but-s:hover i{
@@ -61,7 +70,6 @@ h6{
 	text-align: center;
 	font-size: smaller !important;
 }
-
 .redes{
 	text-align: center;
 }
@@ -83,7 +91,7 @@ footer .container-fluid{
 }
 
 footer .container-fluid #aviso{
-	font-size: x-small;
+	font-size: xx-small;
 }
 
 footer .container-fluid p{
@@ -97,13 +105,12 @@ footer .container-fluid p{
 }
 
 h1{
-	/*font-family: 'Dosis', sans-serif;	*/
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	text-align: center;
-	font-weight: bolder;
 	color: #022c43;
+	font-weight: bolder;
 }
 
 p{
-	font-family: 'PT Sans', sans-serif;	
+	font-family: 'PT Sans', sans-serif;
 }
