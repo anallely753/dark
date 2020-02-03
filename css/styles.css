@@ -2,16 +2,16 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	font-size: 80%;
 }
 
 main {
-	margin-top: 55px;
 	flex: 1 0 auto;
+	margin-top: 55px;
 }  
 
 /* NAV */
 nav{
-	height: 55px;
 	background-color: #022c43;
 	position: fixed !important;
 }
@@ -19,7 +19,7 @@ nav{
 	color: #E7C810 !important;
 }
 .nav-link, .dropdown-menu .dropdown-item{
-	color: #022c43 !important;
+	color: white !important;
 	font-family: 'PT Sans', sans-serif;
 }
 .nav-link:hover, .dropdown-menu .dropdown-item:hover{
@@ -30,7 +30,7 @@ ul .dropdown-menu{
 	background-color: #022c43;
 }
 #nav-s{
-	width: 350px;
+	width: 250px;
 	border-radius: 0;
 	height: 35px;
 	border-style: none;
@@ -72,8 +72,9 @@ h6{
 footer p{
 	color: white;
 	font-family: 'PT Sans', sans-serif;
-	font-size: smaller;
+	font-size: x-small;
 	color: #E7C810;
+	text-align: center;
 }
 
 footer div .row div{
@@ -86,7 +87,7 @@ footer .container-fluid{
 }
 
 footer .container-fluid #aviso{
-	font-size: x-small;
+	font-size: xx-small;
 }
 
 footer .container-fluid p{
@@ -95,18 +96,19 @@ footer .container-fluid p{
 
 /*MAIN*/
 .banner img{
-	 height: 40vh;
+	 height: 50vh;
 	 width: 100%;
 }
 
-h1{
-	/*font-family: 'Dosis', sans-serif;	*/
+main h1{
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
-	font-weight: bolder;
 	color: #022c43;
+	font-size: 1.5rem;
 }
 
 p{
 	font-family: 'PT Sans', sans-serif;	
+	font-size: .8rem;
+	text-align: justify;
 }
